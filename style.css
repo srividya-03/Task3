@@ -38,7 +38,7 @@ body {
 .bg-container {
   position: relative;
   text-align: center;
-  color: black;
+  color: white;
 }
 
  .bottom-left h1{
@@ -64,13 +64,15 @@ font-family: Garamond, serif;
  border: none;
   outline: 0;
  left:16px;
-bottom:400px;
+ bottom:400px;
   display: inline-block;
   padding: 10px 25px;
   color: black;
   background-color: white;
   text-align: left;
   cursor: pointer;
+  font-size:20px;
+  font-weight: bold;
 }
 
 .bottom-left button:hover {
