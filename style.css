@@ -38,7 +38,7 @@ body {
 .bg-container {
   position: relative;
   text-align: center;
-  color: white;
+  color: black;
 }
 
  .bottom-left h1{
@@ -55,6 +55,7 @@ font-family: Garamond, serif;
   position: absolute;
 left:16px;
 bottom:450px;
+font-weight: bold;
 }
 
 .bottom-left button {
