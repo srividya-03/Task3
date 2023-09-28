@@ -1,0 +1,84 @@
+
+* {box-sizing: border-box}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden; 
+}
+
+.topnav h2{
+  float: left;
+  padding-left:10px;
+  text-shadow: 2px 2px 5px blue;
+}
+
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color:blue;
+}
+
+.topnav-right {
+  padding-top:13px;
+  float: right;
+}
+
+.bg-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+ .bottom-left h1{
+  font-family: Garamond, serif;
+  position: absolute;
+  bottom: 500px;
+  left: 16px;
+  font-size:35px;
+  font-weight: bold;
+}
+
+.bottom-left p{
+font-family: Garamond, serif;
+  position: absolute;
+left:16px;
+bottom:450px;
+}
+
+.bottom-left button {
+font-family: Garamond, serif;
+ position: absolute;
+ border: none;
+  outline: 0;
+ left:16px;
+bottom:400px;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color: white;
+  text-align: left;
+  cursor: pointer;
+}
+
+.bottom-left button:hover {
+  background-color: DodgerBlue;
+  color: white;
+}
+
+img {
+  width: 100%;
+  height: auto;
+
+}
